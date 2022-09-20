@@ -14,3 +14,10 @@
             - Titulo, descripcion, imagenes y nombre del boton de las cards/tarjetas 
             - colores
             - etc
+
+
+
+
+<br>
+
+[Pagina del ejemplo visto en clase](https://erick-c3.github.io/Practica_3-4/)
