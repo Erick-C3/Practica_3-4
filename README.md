@@ -6,7 +6,7 @@
 
 2. En un proyecto incorporar bootstrap como es mencionado en la documentacion
 
-3. agregar [cards](https://getbootstrap.com/docs/5.2/components/card/) y [barra de navegacion](https://getbootstrap.com/docs/5.2/components/navbar/) al proyecto con una tematica a su gusto
+3. agregar [cards](https://getbootstrap.com/docs/5.2/components/card/) y una [barra de navegacion](https://getbootstrap.com/docs/5.2/components/navbar/) al proyecto con una tematica a su gusto
 
     - Modificar las caracteristicas visuales en la pagina para seguir con la tematica
         - Ejemplo:
