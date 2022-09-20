@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Este es el codigo CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Este es el codigo CSS propio -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+  <body >
+    <nav id="navbar-contenedor" class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cat café</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Caracteristicas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Precios</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ofertas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Fila de bootstrap -->
+        <div class="row" >
+            <!-- Columna de bootsrap -->
+            <div class="col">
+                <!-- Este es un componente tarjeta -->
+                <div class="card card-gatito" id="gatito" style="width: 18rem;">
+                    <img class="card-imagen" src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/Purina%C2%AE%20La%20llegada%20del%20gatito%20a%20casa.jpg?itok=_3VnSPSl" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mich uno</h5>
+                      <p class="card-text">Descripcion del michi uno</p>
+                      <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-gatito" style="width: 18rem;">
+                    <img class="card-imagen" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1199242002.jpg?crop=0.666xw:1.00xh;0.201xw,0&resize=480:*" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mich dos</h5>
+                      <p class="card-text">Descripcion del michi dos</p>
+                      <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-gatito" style="width: 18rem;">
+                    <img class="card-imagen" src="https://estaticos.muyinteresante.es/uploads/images/gallery/59a669fc5bafe88febb3d6cc/gatito-cesped_0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mich dos</h5>
+                      <p class="card-text">Descripcion del michi dos</p>
+                      <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+        <!-- Fila de bootstrap -->
+        <div class="row" >
+            <!-- Columna de bootsrap -->
+            <div class="col">
+                <div class="card card-gatito" style="width: 18rem;">
+                    <img  class="card-imagen" src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/Purina%C2%AE%20La%20llegada%20del%20gatito%20a%20casa.jpg?itok=_3VnSPSl" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mich uno</h5>
+                      <p class="card-text">Descripcion del michi uno</p>
+                      <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-gatito" style="width: 18rem;">
+                    <img  class="card-imagen" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1199242002.jpg?crop=0.666xw:1.00xh;0.201xw,0&resize=480:*" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mich dos</h5>
+                      <p class="card-text">Descripcion del michi dos</p>
+                      <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-gatito" style="width: 18rem;">
+                    <img  class="card-imagen" src="https://estaticos.muyinteresante.es/uploads/images/gallery/59a669fc5bafe88febb3d6cc/gatito-cesped_0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mich dos</h5>
+                      <p class="card-text">Descripcion del michi dos</p>
+                      <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        
+    
+        
+    </div>
+
+    
+
+    <!-- Este es el codigo JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
